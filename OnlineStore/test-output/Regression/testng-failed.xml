@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]">
+  <test thread-count="5" name="Testing(failed)">
+    <classes>
+      <class name="automationFramework.Login">
+        <methods>
+          <include name="getdriver"/>
+          <include name="SignIn"/>
+          <include name="createFolder"/>
+        </methods>
+      </class> <!-- automationFramework.Login -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [Regression] -->
